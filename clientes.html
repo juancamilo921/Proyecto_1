@@ -13,10 +13,10 @@
             <img src="images/descarga.jpeg" alt="Logo de Cepkit">
         </div>
         <ul>
-            <li><a href="inicio.html"></a>Inicio</li>
-            <li><a href="clientes.html" class="active"></a>Clientes</li>
-            <li><a href="productos.html"></a>Productos</li>
-            <li><a href="configuracion.html"></a>Configuracion</li>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="productos.html">Productos </a></li>
+            <li><a href="configuracion.html">Configuracion </a> </li>
         </ul>
     </nav>
 
@@ -127,15 +127,15 @@
 
     <script>
         function openModal() {
-            document.getElementById('modalCliente').style.display = 'flex';
+            document.getElementById('modalClientes').style.display = 'flex';
         }
 
         function closeModal() {
-            document.getElementById('modaCliente').style.display = 'none';
+            document.getElementById('modaClientes').style.display = 'none';
         }
 
         window.onclick = function(event) {
-            const modal = document.getElementById('modalCliente');
+            const modal = document.getElementById('modalClientes');
             if (event.target === modal) {
                 closeModal();
             }

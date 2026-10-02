@@ -17,7 +17,7 @@ body {
     background-position: center;
     width: 200px;
     min-width: 200px;
-    width: 100vh;
+    height: 100vh;
     position: sticky;
     top: 0;
     padding: 20px 10px;
@@ -40,6 +40,13 @@ body {
 .menu ul li {
     margin-bottom: 5px;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu a{
+    text-decoration: none;
+    color: azure;
+    background-color: #556b2f;
+   
 }
 
 .menu ul li a:hover {
