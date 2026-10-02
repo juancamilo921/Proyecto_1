@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.menu {
+    background-image: linear-gradient(rgb(73, 37, 37), rgba(193, 250, 252, 0.85)), url("../images/Arthur\ Lewin.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    min-width: 200px;
+    width: 100vh;
+    position: sticky;
+    top: 0;
+    padding: 20px 10px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin-bottom: 5px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu ul li a:hover {
+    background-color: rgb(34, 139, 34, 0.5);
+}
+
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.banner {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.content {
+    padding: 30px;
+    flex: 1;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.card h2, .card h3{
+    margin: 10px;
+    color: #556b2f;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+    color: #777;
+    border-top: 1px solid #e0e0e0;
+}
+
