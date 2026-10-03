@@ -50,7 +50,7 @@ body {
 }
 
 .menu ul li a:hover {
-    background-color: rgb(34, 139, 34, 0.5);
+    background-color: rgba(0, 255, 191, 0.904);
 }
 
 .main-wrapper {
